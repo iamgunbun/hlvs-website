@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://example.com/</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://example.com/music.html</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://example.com/tour.html</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://example.com/videos.html</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://example.com/merch.html</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://example.com/contact.html</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://hlvs-website.vercel.app/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://hlvs-website.vercel.app/music.html</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://hlvs-website.vercel.app/tour.html</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://hlvs-website.vercel.app/videos.html</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://hlvs-website.vercel.app/merch.html</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://hlvs-website.vercel.app/contact.html</loc><lastmod>2026-10-14</lastmod></url>
 </urlset>

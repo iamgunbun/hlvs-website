@@ -8,9 +8,9 @@ const SITE = {
   short: "HLVS",
   tagline: "Technical Death Metal", // not shown on the site; only tells search engines the genre
   location: "Dallas, TX",
-  // Your real web address, no trailing slash. Also update it in sitemap.xml,
-  // robots.txt and the <head> of each .html page (search for "example.com").
-  url: "https://example.com",
+  // The site's web address, no trailing slash. If it changes, also update sitemap.xml,
+  // robots.txt and the <head> of each .html page (search for "hlvs-website.vercel.app").
+  url: "https://hlvs-website.vercel.app",
   bookingEmail: "booking@example.com",
   generalEmail: "contact@example.com",
 

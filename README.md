@@ -46,7 +46,7 @@ Already built in:
 
 Still to do:
 
-1. **Set your domain.** Replace `https://example.com` in every `.html` file, `sitemap.xml`, `robots.txt` and `SITE.url` in `data.js`.
+1. **Custom domain (optional).** The site lives at `https://hlvs-website.vercel.app`. If you buy a domain, replace that address in every `.html` file, `sitemap.xml`, `robots.txt` and `SITE.url` in `data.js`.
 2. **Google Search Console:** add the site, verify it, and submit `sitemap.xml`. Do the same in Bing Webmaster Tools.
 3. **Link back from everywhere.** Put the site URL in your Instagram, YouTube, Spotify for Artists and Facebook bios. Inbound links from your own profiles are the biggest ranking signal a band site gets.
 4. **Keep the name identical everywhere:** "Hasta La Victoria Siempre". It helps Google connect your profiles into one knowledge panel.
