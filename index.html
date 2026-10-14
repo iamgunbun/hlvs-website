@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hasta La Victoria Siempre</title>
+  <meta name="description" content="Official site of Hasta La Victoria Siempre (HLVS), from Dallas, TX. Stream the new single Intruder, catch a live show, watch videos and grab merch.">
+  <link rel="canonical" href="https://example.com/">
+  <meta name="theme-color" content="#08080a">
+
+  <!-- Social share previews (Facebook, Instagram DMs, Discord, iMessage, X) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hasta La Victoria Siempre">
+  <meta property="og:title" content="Hasta La Victoria Siempre">
+  <meta property="og:description" content="Official site of Hasta La Victoria Siempre (HLVS), from Dallas, TX. Stream the new single Intruder, catch a live show, watch videos and grab merch.">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="https://example.com/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="img/favicon-48.png" sizes="48x48" type="image/png">
+  <link rel="icon" href="img/favicon-512.png" sizes="512x512" type="image/png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Antonio:wght@600;700&family=JetBrains+Mono:wght@400;500&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body data-page="home">
+  <header id="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html" aria-label="Hasta La Victoria Siempre home"><img src="img/logo.png" alt="Hasta La Victoria Siempre" width="1189" height="276"></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="nav">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="music.html">Music</a>
+        <a href="tour.html">Shows</a>
+        <a href="videos.html">Videos</a>
+        <a href="merch.html">Merch</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <video class="hero-video" id="hero-video" src="video/intruder.mp4" poster="img/intruder-poster.jpg"
+             autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
+      <div class="wrap">
+        <p class="eyebrow" id="hero-eyebrow">New single // Out now</p>
+        <h1 class="hero-name"><span class="sr-only">Hasta La Victoria Siempre: </span><span id="hero-title">Intruder</span></h1>
+        <p class="hero-tagline" id="hero-tagline">Hasta La Victoria Siempre</p>
+        <div class="hero-actions">
+          <a class="btn btn-accent" id="hero-cta" href="https://www.youtube.com/watch?v=I4gVEAzl0Zs" target="_blank" rel="noopener">
+            <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 4v16l13-8z"/></svg>
+            <span id="hero-cta-label">Watch the video</span>
+          </a>
+          <a class="btn" href="tour.html">Show dates</a>
+          <div id="hero-socials"></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#latest">SCROLL</a>
+    </section>
+
+    <section class="section" id="latest">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="section-title"><span class="num">01</span>Latest release</h2>
+          <a class="btn btn-small" href="music.html">Discography</a>
+        </div>
+        <div id="latest-release"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="section-title"><span class="num">02</span>Live</h2>
+          <a class="btn btn-small" href="tour.html">All dates</a>
+        </div>
+        <div id="home-shows"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="section-title"><span class="num">03</span>Watch</h2>
+          <a class="btn btn-small" href="videos.html">All videos</a>
+        </div>
+        <div id="home-video"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="section-title"><span class="num">04</span>Merch</h2>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-accent" href="merch.html">Shop merch</a>
+          <a class="btn" href="contact.html">Booking &amp; contact</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>
